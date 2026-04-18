@@ -1,3 +1,5 @@
+import Card from "../common/Card"
+
 const Greeting = () => {
     const name = "hee"
     return (
@@ -16,6 +18,7 @@ return (
         <>
             <Greeting />
             <Button />
+            <Card />
         </>
     )
 }
